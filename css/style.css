@@ -982,6 +982,10 @@ footer a:hover {
     gap: 2.7rem;
   }
 
+  .img-overlay .overlay .common-heading {
+    font-size: 2.8rem;
+  }
+
   .btn {
     padding: 2rem 2.3rem;
   }
