@@ -848,7 +848,8 @@ footer a:hover {
   }
 
   .header .logo {
-    width: 40%;
+    width: 30%;
+    height: 70%;
   }
 
   .navbar {
@@ -970,6 +971,7 @@ footer a:hover {
 
   .header .logo {
     width: 50%;
+    height: 50%;
   }
 
   .section-hero h1 {
@@ -979,15 +981,14 @@ footer a:hover {
   /* portfolio   */
 
   .p-btns {
-    gap: 2.7rem;
+    gap: 2.3rem;
+  }
+  .btn {
+    padding: 1.2rem 1.7rem;
   }
 
   .img-overlay .overlay .common-heading {
     font-size: 2.8rem;
-  }
-
-  .btn {
-    padding: 2rem 2.3rem;
   }
 
   .counter-numbers {
