@@ -30,7 +30,14 @@ let header = document.querySelector(".header");
 mobile_nav.addEventListener("click", () => {
   header.classList.toggle("active");
 });
-
+const nav_links = document.querySelectorAll('.navbar-links')
+nav_links.forEach(element => {
+  element.addEventListener('click',()=> {
+    setTimeout(() => {
+      header.classList.toggle("active");
+    },500)
+  })
+})
 // ===============================================
 //          Creating a portfolio tabbed Component
 // ===============================================
